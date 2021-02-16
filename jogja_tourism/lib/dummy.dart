@@ -137,7 +137,8 @@ var tourismList = [
       ticket: 'Rp2.500,00',
       photo: 'assets/img/pengger.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2018/01/lokasi-hutan-pinus-pengger-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2018/01/rute-hutan-pinus-pengger-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2018/01/rute-hutan-pinus-pengger-451x257.jpg',
+      'https://i.pinimg.com/564x/1e/14/a6/1e14a62562ba5f9b75c962e4c4cb5187.jpg']
   ),
   Tourism(name : 'Seribu Batu Songgo Langit',
       address: 'Jalan Hutan Pinus Nganjir, Mangunan, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783.',
@@ -146,16 +147,18 @@ var tourismList = [
       ticket: 'Rp 2.500,00',
       photo: 'assets/img/songgo.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2018/04/lokasi-seribu-batu-songgo-langit-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2018/04/rute-seribu-batu-songgo-langit-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2018/04/rute-seribu-batu-songgo-langit-451x257.jpg',
+      'https://i.pinimg.com/564x/d6/08/7d/d6087d5747a4477bae8e5244b484210f.jpg']
   ),
   Tourism(name : 'Wisata Kraton Jogja',
       address: ' lokasi Kraton Jogja ini berada di selatan dari Jalan paling terkenal di wilayah Yogyakarta yaitu Jalan Malioboro',
       description: 'Kraton Jogja adalah sebuah komplek kerajaan yang berada tepat berdiri di tengah kota Yogyakarta. Kraton yang didirikan seiring perjanjian giyanti pada tahun 1755 yang memecah Kerajaan Mataram Islam menjadi Kerajaan Ngayogyakarta Surakarta ini menyimpan keindahan arsitektur jawa yang tidak diragukan lagi, dan merupakan salah komplek istana terbaik di tanah jawa.',
       scedule: '06.00-17.00',
       ticket: 'Rp 5.000,00',
-      photo: 'assets/img/kraton.jpg',
+      photo: 'assets/img/keraton.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2018/05/lokasi-wisata-kraton-jogja-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2018/05/fasititas-wisata-kraton-jogja-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2018/05/fasititas-wisata-kraton-jogja-451x257.jpg',
+      'https://i.pinimg.com/564x/c0/86/19/c0861963546ff92ded99d2ee11d436e3.jpg']
   ),
   Tourism(name : 'Pasar Beringharjo',
       address: 'Jln. Malioboro, Kelurahan Ngupasan, Kecamatan Gondomanan, Kota Yogyakarta.',
@@ -164,14 +167,15 @@ var tourismList = [
       ticket: 'Rp 5.000,00',
       photo: 'assets/img/beringharjo.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2018/05/Wisata-Pasar-Beringharjo-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2018/05/Rute-Meuju-Pasar-Beringharjo-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2018/05/Rute-Meuju-Pasar-Beringharjo-451x257.jpg',
+      'https://i.pinimg.com/564x/ed/dc/7f/eddc7fd07f3248e3891db4349f2fdc9e.jpg']
   ),
   Tourism(name : 'Titik 0 (Nol) Jogja',
       address: 'Ngupasan, Gondomanan, Daerah Istimewa Yogyakarta.',
       description: 'Titik 0 Kilometer Yogyakarta memang tempat favorit wisatawan untuk menghabiskan waktu, terlebih pada sore hari dan malam hari yang setiap hari selalu ramai disesaki oleh para wisatawan yang sekedar hanya untuk nongkrong di dudukan yang banyak disediakan di sekitar perempatan.Memang tempat ini bukanlah perempatan pada umumnya yang biasanya hanya terdiri dari lampu lalu lintas dan kendaraan yang berhenti. Namun di Titik Nol Jogja ini kamu bisa menemukan area pedestrian yang cukup luas untuk menampung ribuan wisatawan sepanjang harinya.',
       scedule: '24 jam',
       ticket: 'free',
-      photo: 'assets/img/titiknol.jpg',
+      photo: 'assets/img/titiknoljogja.jpg',
       imgurl: ['https://i.pinimg.com/564x/10/a3/3c/10a33cb456efaf03d87982ce434085a3.jpg','https://www.alodiatour.com/wp-content/uploads/2018/05/foto-titik-0-km-jogja-451x257.jpg',
         'https://i.pinimg.com/564x/50/8f/5e/508f5e9dd17687fabc327c0752cbd5ec.jpg']
   ),
@@ -183,7 +187,8 @@ var tourismList = [
       ticket: 'Rp. 30.000-Rp. 50.000',
       photo: 'assets/img/museum.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2019/08/Harga-Tiket-Masuk-Museum-History-Of-Java-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2019/08/Lokasi-Museum-History-Of-Java-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2019/08/Lokasi-Museum-History-Of-Java-451x257.jpg',
+      'https://i.pinimg.com/564x/39/1d/e5/391de536cd17a8cd338f5c3e926172cb.jpg']
   ),
 
   Tourism(name : 'Plengkung Gading Jogja',
@@ -193,7 +198,8 @@ var tourismList = [
       ticket: 'free',
       photo: 'assets/img/plengku.jpg',
       imgurl: ['https://www.alodiatour.com/wp-content/uploads/2020/01/harga-tiket-masuk-plengkung-gading-jogja-451x257.jpg',
-        'https://www.alodiatour.com/wp-content/uploads/2020/01/rute-menuju-plengkung-gading-jogja-451x257.jpg']
+        'https://www.alodiatour.com/wp-content/uploads/2020/01/rute-menuju-plengkung-gading-jogja-451x257.jpg',
+      'https://i.pinimg.com/564x/83/b2/35/83b235a498a1da445db0f264e9bc81d9.jpg']
   )
 
 

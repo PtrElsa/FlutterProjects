@@ -60,6 +60,7 @@ flutter:
     - assets/img/pantaiglagah.jpg
     - assets/img/kalibiru.jpg
     - assets/img/kraton.jpg
+    - assets/img/keraton.jpg
     - assets/img/lintangsewu.jpg
     - assets/img/bukitlintangsewu.jpg
     - assets/img/luweng.jpg
@@ -77,6 +78,7 @@ flutter:
     - assets/img/timang.jpg
     - assets/img/pantaitimang.jpg
     - assets/img/titiknol.jpg
+    - assets/img/titiknoljogja.jpg
     - assets/img/tugu.jpg
 
   # To add assets to your application, add an assets section, like this:

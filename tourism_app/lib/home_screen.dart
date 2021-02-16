@@ -20,14 +20,14 @@ class HomeScreen extends StatelessWidget {
           },
           child: Card(
             child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 Expanded(
                     flex : 1, child : Image.asset(place.photo)),
                 Expanded(
                   flex : 2,
                   child: Padding(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(10.0),
                     child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                       SizedBox(
                         height: 10,
                       ),
-                      Text(place.address)
+                      Text(place.address, maxLines: 2)
                     ],
                   ),
                   ),

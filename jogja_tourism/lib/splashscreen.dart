@@ -14,15 +14,16 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    splashscreenStart();
+    splashScreenStart();
   }
-  splashscreenStart() async{
-    var duration = const Duration(seconds: 5);
-    return Timer(duration, (){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => HomePage())
-      );
+
+  splashScreenStart() async {
+    var duration = Duration(seconds: 3);
+    return Timer(duration,(){
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_){
+        return HomePage();
+
+      }));
     });
   }
   @override
